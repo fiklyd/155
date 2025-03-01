@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>益程银旅 - 银发旅行专家</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">益程银旅</a>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#services">服务</a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 欢迎部分 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>欢迎来到益程银旅</h1>
+            <p>专为银发族打造的舒适旅行体验</p>
+            <a href="#services" class="btn">了解更多</a>
+        </div>
+    </section>
+
+    <!-- 服务介绍 -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>我们的服务</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>定制旅行</h3>
+                    <p>根据您的需求，量身定制专属旅行计划。</p>
+                </div>
+                <div class="service-item">
+                    <h3>健康保障</h3>
+                    <p>全程健康监测，确保旅行安全无忧。</p>
+                </div>
+                <div class="service-item">
+                    <h3>贴心陪伴</h3>
+                    <p>专业导游和护理人员全程陪伴。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>关于我们</h2>
+            <p>益程银旅致力于为银发族提供安全、舒适、愉快的旅行体验。我们理解老年人的特殊需求，精心设计每一段旅程，让每一位旅客都能享受旅行的乐趣。</p>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>联系我们</h2>
+            <p>如果您有任何问题或需要预订服务，请随时联系我们。</p>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="您的姓名" required>
+                <input type="email" name="email" placeholder="您的邮箱" required>
+                <textarea name="message" placeholder="您的留言" required></textarea>
+                <button type="submit" class="btn">发送</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 益程银旅. 版权所有.</p>
+        </div>
+    </footer>
+</body>
+</html>
